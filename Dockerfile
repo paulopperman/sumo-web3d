@@ -20,6 +20,8 @@ WORKDIR /sumo-web3d
 
 RUN yarn
 
+RUN yarn webpack
+
 WORKDIR /
 
 EXPOSE 5000
